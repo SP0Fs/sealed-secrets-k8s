@@ -13,7 +13,7 @@ spec:
         releaseName: sealed-secrets
         valueFiles:
           - $values/values.yaml
-    - repoURL: 'https://github.com/SP0Fs/argo-cd-k8s.git'
+    - repoURL: 'https://github.com/SP0Fs/sealed-secrets-k8s.git'
       targetRevision: HEAD
       ref: values
   destination:
