@@ -1,11 +1,5 @@
 namespace: "sealed-secrets"
 
-image:
-  registry: docker.io
-  repository: bitnami/sealed-secrets-controller
-  tag: v0.22.0
-  pullPolicy: IfNotPresent
-
 secretName: "sealed-secrets-key"
 
 ingress:
