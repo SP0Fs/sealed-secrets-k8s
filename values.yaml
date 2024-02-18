@@ -4,10 +4,8 @@ secretName: "sealed-secrets-key"
 
 ingress:
   enabled: true
-  pathType: Prefix
   ingressClassName: nginx
   hostname: sealed-secrets.spof.tech
-  path: /
   annotations: 
     cert-manager.io/cluster-issuer: ca-issuer
     nginx.ingress.kubernetes.io/auth-tls-verify-client: "on"
